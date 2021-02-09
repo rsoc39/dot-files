@@ -75,5 +75,5 @@ bindkey "^M" timestamp_and_accept
 alias vi='vim'
 
 #source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
-source /home/admin/.local/lib/python3.7/site-packages/powerline/bindings/zsh/powerline.zsh
+#source /home/admin/.local/lib/python3.7/site-packages/powerline/bindings/zsh/powerline.zsh
 setopt APPEND_HISTORY
