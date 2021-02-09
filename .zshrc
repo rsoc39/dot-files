@@ -2,6 +2,7 @@ autoload -Uz compinit -u
 compinit -u
 #export PATH=/usr/local/aws/bin:$PATH
 #source /usr/local/aws/bin/aws_zsh_completer.sh
+export PATH=/home/admin/.local/bin/:$PATH
 
 autoload bashcompinit && bashcompinit
 complete -C '/usr/local/bin/aws_completer' aws
@@ -74,5 +75,5 @@ bindkey "^M" timestamp_and_accept
 alias vi='vim'
 
 #source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
-#source /Library/Python/3.7/site-packages/powerline/bindings/zsh/powerline.zsh
+source /home/admin/.local/lib/python3.7/site-packages/powerline/bindings/zsh/powerline.zsh
 setopt APPEND_HISTORY
